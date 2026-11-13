@@ -1,0 +1,9 @@
+key,value,unit,description
+total_students,5000,students,Enrolled students - EDIT
+hostel_rate,0.30,share,Share of students living on campus - EDIT
+total_classrooms,80,rooms,Number of classrooms - EDIT
+classroom_capacity,60,seats,Average seats per classroom - EDIT
+buses,6,buses,Campus buses - EDIT
+bus_capacity,50,passengers,Passengers per bus - EDIT
+parking_capacity,850,car-equivalent spaces,Parking capacity - EDIT
+water_capacity_l,350000,litres/day,Daily water supply - EDIT

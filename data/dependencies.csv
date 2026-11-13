@@ -1,0 +1,22 @@
+source,target,description
+Student population,Attendance,Present students = enrolled x attendance rate
+Student population,Water,Hostel residents use water whether or not they attend
+Attendance,Classrooms,More present students -> larger classes and higher seat use
+Attendance,Electricity,Occupancy-related load grows with present students
+Attendance,Canteen,Meals = present students x participation x meals per student
+Attendance,Water,Per-student campus water use
+Attendance,Commuting,Non-hostel present students are the commuters
+Weather,Electricity,Temperature above threshold drives cooling load
+Weather,Water,Heat raises water use
+Weather,Canteen,Heat raises beverage/meal demand
+Weather,Commuting,Rain shifts two-wheeler/walk users to bus and car
+Timetable,Classrooms,Simultaneous classes and peak concentration set room load
+Timetable,Electricity,Sessions add load; concentration raises peak kW
+Timetable,Commuting,Concentrated timetables squeeze arrivals into a peak window
+Campus events,Canteen,Visitors need meals
+Campus events,Electricity,Event lighting/AV + visitor load
+Campus events,Water,Visitors and catering use water
+Campus events,Parking,Visitor vehicles need parking
+Campus events,Transport,Visitors using bus/shuttle
+Commuting,Transport,Bus share of commuters sets bus demand
+Commuting,Parking,Car/two-wheeler share of commuters sets parking demand
